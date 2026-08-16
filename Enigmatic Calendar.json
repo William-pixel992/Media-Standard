@@ -249,6 +249,46 @@
         "name": "1.png-1.png2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "New Piskel-1.png (11)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (11)3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/New Piskel-1.png (11)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-1.png (11)3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "New Piskel-1.png (11)3-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel-1.png (11)3-1.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Flipper_R-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flipper_R-1.png.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Flipper_l-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flipper_l-1.png.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -288,7 +328,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4335774304702463,
+        "zoomFactor": 0.22336005893811925,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -521,14 +561,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 3,
-          "height": 743,
+          "height": 865,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "e6f70e54-de39-4b6f-87d8-82193ae12982",
           "width": 30,
           "x": 392,
-          "y": 23,
+          "y": -99,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -552,17 +592,17 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 345,
           "customSize": true,
           "depth": 3,
-          "height": 30,
+          "height": 35,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "d2b6e2bf-6e6c-4f5d-8376-e183e42993ed",
-          "width": 493,
-          "x": 389,
-          "y": 2,
+          "width": 294,
+          "x": 387,
+          "y": -139,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -731,7 +771,7 @@
           "persistentUuid": "c151715d-ef00-42a1-bb1b-7d269e484684",
           "width": 113,
           "x": 852,
-          "y": 866,
+          "y": 847,
           "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
@@ -741,14 +781,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 898,
+          "height": 1000,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
           "persistentUuid": "68a90cba-1990-4031-9639-8b11e177aaae",
           "width": 32,
           "x": 931,
-          "y": -3,
+          "y": -105,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -781,8 +821,8 @@
           "name": "spring",
           "persistentUuid": "aa2d3324-4e4f-4513-acd1-a521a1acae9b",
           "width": 44,
-          "x": 883,
-          "y": 755,
+          "x": 884,
+          "y": 756,
           "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
@@ -792,15 +832,48 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Spring_wall",
+          "persistentUuid": "1b37a1b2-e285-4c9a-aa3f-47383a4a7684",
+          "width": 113,
+          "x": 850,
+          "y": 733,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ball",
+          "persistentUuid": "f729659c-3bd6-416b-9180-b2e48b7718e7",
+          "width": 0,
+          "x": 890,
+          "y": 700,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 15,
+          "customSize": true,
+          "depth": 3,
+          "height": 34,
           "keepRatio": true,
           "layer": "",
           "name": "Wall",
-          "persistentUuid": "74a8e42e-bdc5-4922-a155-8ee1a05eef1b",
-          "width": 88,
-          "x": 857,
-          "y": 704,
-          "zOrder": 37,
+          "persistentUuid": "85282166-337b-41ec-b75b-3d7cf0b2e7fb",
+          "width": 283,
+          "x": 660,
+          "y": -137,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -853,7 +926,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite3",
+                      "image": "Flipper_R-1.png.png",
                       "points": [
                         {
                           "name": "Point",
@@ -957,7 +1030,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Flipper_l.png",
+                      "image": "Flipper_l-1.png.png",
                       "points": [
                         {
                           "name": "Point",
@@ -1351,7 +1424,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "2.png",
+              "name": "Spring_loaded",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1359,42 +1432,6 @@
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 10,
-                            "y": 0
-                          },
-                          {
-                            "x": 10,
-                            "y": 41
-                          },
-                          {
-                            "x": 0,
-                            "y": 41
-                          }
-                        ]
-                      ]
-                    },
                     {
                       "hasCustomCollisionMask": true,
                       "image": "2.png2",
@@ -1436,7 +1473,7 @@
               ]
             },
             {
-              "name": "1.png-1.png2",
+              "name": "Spring_sprung",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1729,7 +1766,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "one_way_gate",
           "persistentUuid": "1b1fac56-334b-4d5c-9013-6c66baacb06a",
@@ -1775,11 +1812,11 @@
                           },
                           {
                             "x": 62,
-                            "y": 39
+                            "y": 38
                           },
                           {
                             "x": 2,
-                            "y": 39
+                            "y": 38
                           }
                         ]
                       ]
@@ -1787,6 +1824,42 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Spring_wall",
+          "persistentUuid": "e60e5f2e-aa82-46ca-9fa9-0b8053b9cd9d",
+          "texture": "New Piskel-1.png (11)3-1.png.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": true,
+              "canSleep": false,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 0,
+              "layers": 1,
+              "masks": 1
             }
           ]
         }
@@ -1826,6 +1899,9 @@
           },
           {
             "objectName": "one_way_gate"
+          },
+          {
+            "objectName": "Spring_wall"
           }
         ]
       },
@@ -1878,18 +1954,6 @@
                 "",
                 "",
                 "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "ball",
-                "RandomInRange(550,850)",
-                "15",
                 ""
               ]
             },
@@ -1970,6 +2034,49 @@
               "subInstructions": [
                 {
                   "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "flipper_l",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
                     "value": "KeyFromTextPressed"
                   },
                   "parameters": [
@@ -2007,85 +2114,46 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics2::Collision"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "ball",
-                "Physics2",
-                "b_pink",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Physics2::ApplyPolarImpulse"
+                "value": "SetAngle"
               },
               "parameters": [
-                "ball",
-                "Physics2",
-                "ball.Physics2::AngularVelocity()",
-                "ball.Scale::Value()",
-                "ball.CenterX()",
-                "ball.CenterY()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Physics2::Collision"
-              },
-              "parameters": [
-                "ball",
-                "Physics2",
-                "b_orange",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Physics2::ApplyPolarImpulse"
-              },
-              "parameters": [
-                "ball",
-                "Physics2",
-                "ball.Physics2::AngularVelocity()",
-                "ball.Scale::Value()",
-                "ball.CenterX()",
-                "ball.CenterY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "score",
-                "+",
-                "100"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "ScoreText",
-                "Text",
+                "flipper_r",
                 "=",
-                "\"Score: \" + score"
+                "0"
               ]
             }
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -2109,7 +2177,7 @@
                 "ball",
                 "Physics2",
                 "ball.Physics2::AngularVelocity()",
-                "0.25 * ball.Scale::Value()",
+                "0.05 * ball.Scale::Value()",
                 "ball.CenterX()",
                 "ball.CenterY()"
               ]
@@ -2177,6 +2245,19 @@
             },
             {
               "type": {
+                "value": "Physics2::ApplyPolarImpulse"
+              },
+              "parameters": [
+                "ball",
+                "Physics2",
+                "ball.Physics2::AngularVelocity()",
+                "ball.Scale::Value()",
+                "ball.CenterX()",
+                "ball.CenterY()"
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -2218,6 +2299,19 @@
                 "score",
                 "+",
                 "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "Physics2::ApplyPolarImpulse"
+              },
+              "parameters": [
+                "ball",
+                "Physics2",
+                "ball.Physics2::AngularVelocity()",
+                "ball.Scale::Value()",
+                "ball.CenterX()",
+                "ball.CenterY()"
               ]
             },
             {
@@ -2300,7 +2394,7 @@
                       "parameters": [
                         "ball",
                         "Physics2",
-                        "spring",
+                        "Spring_wall",
                         ""
                       ]
                     }
@@ -2318,9 +2412,64 @@
                 "ball",
                 "Physics2",
                 "0",
-                "100",
-                "",
-                ""
+                "-100",
+                "ball.CenterX()",
+                "ball.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "spring",
+                "Animation",
+                "=",
+                "\"Spring_loaded\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "spring",
+                "Animation",
+                "=",
+                "\"Spring_sprung\""
               ]
             }
           ]
