@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 279,
+    "build": 282,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1335,6 +1335,20 @@
         "name": "Retry-2.png (1)-1.png.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Coins 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -1353,15 +1367,15 @@
   ],
   "layouts": [
     {
-      "b": 214,
+      "b": 165,
       "disableInputWhenNotFocused": true,
       "mangledName": "pinball",
       "name": "pinball",
-      "r": 4,
+      "r": 165,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 244,
+      "v": 165,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -1374,7 +1388,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5903804704176182,
+        "zoomFactor": 0.21932382174670428,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1392,8 +1406,8 @@
           "name": "b_pink",
           "persistentUuid": "9ef7b044-c1e7-4727-bf9c-f7354cec9979",
           "width": 62,
-          "x": 516,
-          "y": 1348,
+          "x": 541,
+          "y": 1334,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -1409,8 +1423,8 @@
           "name": "b_pink",
           "persistentUuid": "5366087e-f225-427c-8036-dd32d5150852",
           "width": 62,
-          "x": 711,
-          "y": 1354,
+          "x": 736,
+          "y": 1340,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1426,8 +1440,8 @@
           "name": "b_orange",
           "persistentUuid": "ec54827d-4424-4370-b819-348a6ba28f7e",
           "width": 62,
-          "x": 613,
-          "y": 1472,
+          "x": 638,
+          "y": 1458,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1443,8 +1457,8 @@
           "name": "b_pink",
           "persistentUuid": "0449695e-1396-43b7-86fe-6cd36af784ab",
           "width": 62,
-          "x": 516,
-          "y": 1679,
+          "x": 541,
+          "y": 1665,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -1460,8 +1474,8 @@
           "name": "b_pink",
           "persistentUuid": "10212ecf-1b07-46c7-99d2-a20b33df0402",
           "width": 62,
-          "x": 711,
-          "y": 1679,
+          "x": 736,
+          "y": 1665,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -1477,7 +1491,7 @@
           "name": "b_pink",
           "persistentUuid": "b8efaf15-ea05-41e7-90f2-9e0443c3b99d",
           "width": 62,
-          "x": 519,
+          "x": 542,
           "y": 525,
           "zOrder": 8,
           "numberProperties": [],
@@ -1494,8 +1508,8 @@
           "name": "b_pink",
           "persistentUuid": "4fe35851-6056-482f-ba86-84e8cc5da999",
           "width": 62,
-          "x": 711,
-          "y": 528,
+          "x": 740,
+          "y": 525,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -1511,8 +1525,8 @@
           "name": "b_orange",
           "persistentUuid": "8aaef177-ec6f-4ea9-baa0-4e6f70e4564b",
           "width": 62,
-          "x": 615,
-          "y": 371,
+          "x": 640,
+          "y": 373,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -1733,7 +1747,7 @@
           "width": 44,
           "x": 884,
           "y": 857,
-          "zOrder": 36,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1764,7 +1778,7 @@
           "name": "b_pink",
           "persistentUuid": "eb136b69-0aec-413f-a636-fecb40ea1d5a",
           "width": 0,
-          "x": 690,
+          "x": 740,
           "y": 31,
           "zOrder": 39,
           "numberProperties": [],
@@ -1878,7 +1892,7 @@
           "name": "b_pink",
           "persistentUuid": "2c8e4198-df8a-475e-a89b-3a84b59d4315",
           "width": 0,
-          "x": 530,
+          "x": 542,
           "y": 31,
           "zOrder": 47,
           "numberProperties": [],
@@ -1896,7 +1910,7 @@
           "width": 0,
           "x": 891,
           "y": 803,
-          "zOrder": 48,
+          "zOrder": 10000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1910,7 +1924,7 @@
           "name": "b_orange",
           "persistentUuid": "33402c56-98c0-441d-a978-2a51878ac46a",
           "width": 0,
-          "x": 615,
+          "x": 640,
           "y": 700,
           "zOrder": 49,
           "numberProperties": [],
@@ -1998,6 +2012,23 @@
           "x": 910,
           "y": -225,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 89,
+          "customSize": true,
+          "depth": 1,
+          "height": 27,
+          "layer": "",
+          "name": "channelor",
+          "opacity": 0,
+          "persistentUuid": "a20d0bd7-04b9-4dcd-96c6-7bb3f4662e07",
+          "width": 13,
+          "x": 859,
+          "y": -7.25,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2227,8 +2258,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2275,8 +2306,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -2361,14 +2392,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -2410,14 +2441,14 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "customCollisionMask": [
                         [
@@ -3650,6 +3681,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -3690,43 +3722,43 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
+                    "value": "Physics2::Collision"
                   },
                   "parameters": [
-                    "",
-                    "\"Down\""
+                    "ball",
+                    "Physics2",
+                    "Spring_wall",
+                    ""
                   ]
                 },
                 {
                   "type": {
-                    "value": "KeyFromTextPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "\"s\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::And"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
                   "parameters": [],
                   "subInstructions": [
                     {
                       "type": {
-                        "value": "Physics2::Collision"
+                        "value": "KeyFromTextPressed"
                       },
                       "parameters": [
-                        "ball",
-                        "Physics2",
-                        "Spring_wall",
-                        ""
+                        "",
+                        "\"Down\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"s\""
                       ]
                     }
                   ]
@@ -3907,6 +3939,29 @@
             },
             {
               "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "b_pink",
+                "Scale",
+                "=",
+                "1.25"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetNumberVariable"
               },
               "parameters": [
@@ -3969,6 +4024,17 @@
                 "=",
                 "\"Bouncer-pink\""
               ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "b_pink",
+                "Scale",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -4003,6 +4069,29 @@
                 "Animation",
                 "=",
                 "\"B-orange_hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "b_orange",
+                "Scale",
+                "=",
+                "1.25"
               ]
             },
             {
@@ -4068,6 +4157,17 @@
                 "Animation",
                 "=",
                 "\"bouncer_orange\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "b_orange",
+                "Scale",
+                "=",
+                "1"
               ]
             }
           ]
@@ -5269,7 +5369,7 @@
           "name": "game_over",
           "persistentUuid": "a4339674-0458-4b88-b866-9d6818f66339",
           "width": 1320,
-          "x": -40,
+          "x": -50,
           "y": 40,
           "zOrder": 1,
           "numberProperties": [],
