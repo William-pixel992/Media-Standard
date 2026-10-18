@@ -1349,6 +1349,52 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Coins/f1e989526d2b8dac635e45f9b0b4bbdda467470cae50d7796fbe3215a3416477_Coins 1.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "6457252705337344.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6457252705337344.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lose 6.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1f4e12dc852484c730c51a17df0f2705ee46541f48a6c87b5d0cf43a60984335_Lose 6.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Lose/1f4e12dc852484c730c51a17df0f2705ee46541f48a6c87b5d0cf43a60984335_Lose 6.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Teleport 10.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "300f4b5ea3f4c3f66714dde0b615b72c0288eae0265f676eab5f7c5474f97417_Teleport 10.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Teleport/300f4b5ea3f4c3f66714dde0b615b72c0288eae0265f676eab5f7c5474f97417_Teleport 10.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/New Piskel-1.png (16)3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "New Piskel-1.png (16)3",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1388,7 +1434,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.21932382174670428,
+        "zoomFactor": 0.39841973425861055,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1619,15 +1665,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 33,
           "keepRatio": true,
           "layer": "UI layer",
           "name": "ScoreText",
           "persistentUuid": "2339574c-4788-497f-bd8c-8e1d4334454e",
-          "width": 0,
-          "x": 258,
-          "y": 27,
+          "width": 191,
+          "x": 248,
+          "y": 9,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -2902,10 +2949,10 @@
           },
           "content": {
             "bold": false,
-            "isOutlineEnabled": false,
+            "isOutlineEnabled": true,
             "isShadowEnabled": false,
             "italic": false,
-            "outlineColor": "255;255;255",
+            "outlineColor": "32;252;74",
             "outlineThickness": 2,
             "shadowAngle": 90,
             "shadowBlurRadius": 2,
@@ -3456,6 +3503,18 @@
                 "score",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "6457252705337344.wav",
+                "yes",
+                "100",
+                "1"
               ]
             }
           ]
@@ -4914,7 +4973,7 @@
           "name": "You_win",
           "persistentUuid": "f458ee03-4808-4c93-be3d-b491dbf80fe9",
           "width": 1113,
-          "x": 98,
+          "x": 42,
           "y": 28,
           "zOrder": 1,
           "numberProperties": [],
@@ -5230,6 +5289,38 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "6457252705337344.wav",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5368,8 +5459,8 @@
           "layer": "",
           "name": "game_over",
           "persistentUuid": "a4339674-0458-4b88-b866-9d6818f66339",
-          "width": 1320,
-          "x": -50,
+          "width": 1080,
+          "x": 40,
           "y": 40,
           "zOrder": 1,
           "numberProperties": [],
@@ -5433,7 +5524,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "New Piskel-1.png (16)2",
+                      "image": "New Piskel-1.png (16)3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5449,19 +5540,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 129,
+                            "x": 9,
                             "y": 0
                           },
                           {
-                            "x": 1191,
+                            "x": 1071,
                             "y": 0
                           },
                           {
-                            "x": 1191,
+                            "x": 1071,
                             "y": 144
                           },
                           {
-                            "x": 129,
+                            "x": 9,
                             "y": 144
                           }
                         ]
@@ -5635,6 +5726,33 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "1f4e12dc852484c730c51a17df0f2705ee46541f48a6c87b5d0cf43a60984335_Lose 6.aac",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -6279,6 +6397,47 @@
           "conditions": [
             {
               "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "6457252705337344.wav",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "ButtonStates::ButtonFSM::IsClicked"
               },
               "parameters": [
@@ -6321,6 +6480,18 @@
               "parameters": [
                 "",
                 "\"pinball\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "300f4b5ea3f4c3f66714dde0b615b72c0288eae0265f676eab5f7c5474f97417_Teleport 10.aac",
+                "",
+                "100",
+                "1"
               ]
             }
           ]
@@ -6476,7 +6647,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047023745,
+        "zoomFactor": 0.529035740215684,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6487,14 +6658,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 208,
+          "depth": 5.250000000000003,
+          "height": 156,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "CONTROLS2",
           "persistentUuid": "86a638e6-b91d-4934-947e-fb1abf429db3",
-          "width": 1235,
-          "x": 35,
+          "width": 926.25,
+          "x": 100,
           "y": 20,
           "zOrder": 1,
           "numberProperties": [],
@@ -6511,7 +6682,7 @@
           "name": "Back",
           "persistentUuid": "741813c4-88e9-4453-a7d0-e51ae63070b0",
           "width": 250,
-          "x": 955,
+          "x": 883,
           "y": 552,
           "zOrder": 2,
           "numberProperties": [],
@@ -6524,7 +6695,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
+          "name": "Key_left",
           "persistentUuid": "6d03c716-bd44-4e4e-a079-b76d0d7b0ba1",
           "width": 0,
           "x": 83,
@@ -6557,7 +6728,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite5",
+          "name": "Key_right",
           "persistentUuid": "771a52f8-e771-481b-bb80-51ab39c82466",
           "width": 0,
           "x": 83,
@@ -6590,7 +6761,7 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite6",
+          "name": "CONTROLS",
           "persistentUuid": "e423990a-6e4c-47dd-9dc2-182548b4707b",
           "width": 0,
           "x": 180,
@@ -6606,12 +6777,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite6",
+          "name": "CONTROLS",
           "persistentUuid": "1abccd2b-5319-4441-aee7-8ac5f34ee534",
           "width": 0,
           "x": 180,
           "y": 425,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Credits_text",
+          "persistentUuid": "6fe3274c-f20e-48c2-ac94-803bad46c517",
+          "width": 0,
+          "x": 0,
+          "y": 674,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6621,7 +6808,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "CONTROLS2",
           "persistentUuid": "c5ad3a4f-920f-41a9-a163-290d0a063d4e",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -6756,7 +6943,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite2",
+          "name": "Key_left",
           "persistentUuid": "327ece5f-7353-4cca-88e7-ead667ec9f02",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -6765,7 +6952,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "Key_left",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6978,7 +7165,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite5",
+          "name": "Key_right",
           "persistentUuid": "3d8a25ae-75bf-4e10-8091-751bc7f40499",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -6987,7 +7174,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "Key_right",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -7076,7 +7263,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite6",
+          "name": "CONTROLS",
           "persistentUuid": "f4e6ff4c-8ded-47f5-8542-1b22ab3d09f7",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -7134,13 +7321,57 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Credits_text",
+          "persistentUuid": "d3d6f9f6-e852-4d13-912c-7c1800f68669",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "All sound is from the free to use library on GDevelop except for the background music, which I made using chrome music labs\nThe other sounds were from Swiss Arcade Game Development.",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "All sound is from the free to use library on GDevelop except for the background music, which I made using chrome music labs\nThe other sounds were from Swiss Arcade Game Development.",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "NewSprite"
+            "objectName": "CONTROLS2"
           },
           {
             "objectName": "NewSprite4"
@@ -7149,20 +7380,50 @@
             "objectName": "Back"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "Key_left"
           },
           {
-            "objectName": "NewSprite5"
+            "objectName": "Key_right"
           },
           {
             "objectName": "NewSprite3"
           },
           {
-            "objectName": "NewSprite6"
+            "objectName": "CONTROLS"
+          },
+          {
+            "objectName": "Credits_text"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "6457252705337344.wav",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -7285,6 +7546,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
